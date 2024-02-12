@@ -1,0 +1,44 @@
+.bg{
+    background-image: url('에.jpeg');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.center{
+    text-align: center;
+    padding : 13%
+}
+
+.title{
+    font-family: "궁서";
+    font-size: 50px;
+}
+
+.Rule{
+    cursor: help;
+    font-family: "궁서";
+    font-size: 30px;
+}
+
+.RuleExplain{
+    padding: 15px 20px;
+        background-color: #b2e1f4;
+        border-radius: 5px;
+        color: #120f0f;
+        display: none;
+}
+
+.Rule:hover + .RuleExplain{
+    display: block;
+}
+
+#button-click{
+    border-radius: 5px;
+    border-radius: 10%;
+}
+
+#reset-button{
+    border-radius: 5px;
+    border-radius: 10%;
+}

@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>숫자 맞추기 게임 !</h1>
-    <div id="result-area">결과가 나온다</div>
-    <div id="chance-area">남은기회 : 5번</div>
-    <input type="number" id="user-input"/>
+    <div class="bg">
+    <div class="center">
+    <h1 class="title"><strong>숫자를 맞혀라 !</strong></h1>
+    <div class="Rule"><strong>Rule</strong></div>
+    <div class="RuleExplain">1. 게임 시작 전 벌칙을 정한다.<br> 2. 벌칙을 정한 후 돌아가면서 숫자를 맞혀 정답인 사람은 벌칙에서 제외한다.<br>3. Reset버튼으로 게임을 새롭게 시작해 마지막까지 숫자를 맞히지 못하는 사람이 벌칙을 수행한다.</div><hr><br>
+    <div id="result-area">Up일까? Down일까?</div>
+    <div id="chance-area">남은기회 : 5번</div><br>
+    <input type="number" id="user-input"/><br>
     <button id="button-click">Go!</button>
     <button id="reset-button">Reset</button>
     <script src="main.js"></script>
+</div>
+</div>
 </body>
 </html>

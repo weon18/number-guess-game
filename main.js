@@ -35,7 +35,7 @@ function click(){
         return;
     }
     if(history.includes(userValue)){
-        resultArea.textContent="이미 입력한 숫자입니다. 다른 숫자를 입력해주세요!"
+        resultArea.textContent=userValue+" 는 이미 입력한 숫자! 다른 숫자를 입력하길!"
         return;
     }
 
@@ -47,7 +47,7 @@ function click(){
     }else if(userValue > computerNum){
         resultArea.textContent = "Down!!!"
     }else {
-        resultArea.textContent = "맞추셨습니다!!!"
+        resultArea.textContent = "정답!!!"
         gameOver=true
     }
 
@@ -68,6 +68,6 @@ function reset(){
     //새로운 번호가 생성
     pickRandomNum();
 
-    resultArea.textContent="결과값이 여기 나옵니다."
+    resultArea.textContent="Up일까? Down일까?"
 }
 pickRandomNum();
